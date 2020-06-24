@@ -8,6 +8,7 @@
 * [Analytical Approach](#analytical-approach)
 * [Tools Used](#tools-used)
 * [Sources](#sources)
+* [Tableau Dashboard](#tableau-dashboard)
 
 ### Motivation
 My personal motivation for choosing this project was simple - I really like knitting! I see yarn crafting as a way to connect sometimes disparate parts of my life together. When I'm working on a project, it brings together memories of where I was when I bought the yarn and the friends I was with or the class I took on a particular technique. Projects like the cardigan I made for my dad several years ago represent my ability to overcome challenges, and making items for my nieces and nephew are a way to show how much I care by spending time making things for them to enjoy.
@@ -44,10 +45,17 @@ Once the data was cleaned, I used the shop and population data to determine what
 
 I analyzed the pattern and yarn data to determine what categories of patterns and yarn are most popular to find some common characteristics.
 
+Links to maps created from project data:
+- <a href = "https://tfwhitesell.github.io/capstone_maps/mapcountry.html"> Map of US Yarn Shops</a>
+- <a href = "https://tfwhitesell.github.io/capstone_maps/map_la.html"> Map of LA County Yarn Shops</a>
+- <a href = "https://tfwhitesell.github.io/capstone_maps/map_seattle.html"> Map of King County/Seattle Yarn Shops</a>
+- <a href = "https://tfwhitesell.github.io/capstone_maps/map_middlesex.html"> Map of Middlesex County (part of Boston metro area) Yarn Shops</a>
+
 ### Tools Used
-- 'Python/Pandas' - for getting and cleaning data, exploration, analysis and creating visuals
-- 'Atom' - for editing html/markdown files
-- 'Terminal/GitHub' - for version control
+- `Python/Pandas` - for getting and cleaning data, exploration, analysis and creating visuals
+- `Tableau` - for creating interactive dashboard
+- `Atom` - for editing html/markdown files
+- `Terminal/GitHub` - for version control
 
 ### Sources
 Pattern, yarn, and local shop data was retrieved from:
@@ -58,6 +66,9 @@ US Census Bureau Population Estimates for 2019:
 
 <a href = "https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html"> County Population Totals: 2010-2019</a>
 
+US counties shapefile:
+<a href = "https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Counties+%28and+equivalent%29"> 2019 TIGER/Line® Shapefiles: Counties (and equivalent)</a>
+
 Further information from:
 
 <a href = "https://www.craftandhobby.org/eWeb/pdfs/AFCI%20MASTER%20Report_020117.pdf"> 2016 Creative Products Size of the Industry Study</a>
@@ -67,3 +78,7 @@ Further information from:
 <a href = "https://www.medicalbag.com/home/lifestyle/knit-one-purl-one-the-health-benefits-of-knitting/"> Knit One, Purl One: The Health Benefits of Knitting</a>
 
 <a href = "https://tnna.org/?page=Research"> TNNA reports "The State of Specialty NeedleArts 2013" and" Knitter Survey Results 2013" (not currently available online as of June 2020)</a>
+
+### TABLEAU Dashboard
+I created a Tableau dashboard to show and explore findings from my analysis of potential yarn shop locations. It can be found on Tableau Public here:
+- <a href = "https://public.tableau.com/profile/teresa.whitesell#!/vizhome/yarnshoppotential/shoppotential?publish=yes"> Dashboard of Potential for New Yarn Shops</a>
